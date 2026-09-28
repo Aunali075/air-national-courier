@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Air National Courier | Express Cargo from Lahore to the World</title>
+    <meta
+      name="description"
+      content="Air National Courier provides premium air cargo and express delivery services from Lahore, Pakistan to worldwide destinations. Fast, reliable, and secure."
+    />
+
+    <!-- Tailwind CSS (via CDN for instant deployment) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="font-sans antialiased text-gray-800 bg-gray-50">
+    <!-- Navigation -->
+    <nav
+      class="bg-white shadow-lg fixed w-full z-50 transition-all duration-300"
+      id="navbar"
+    >
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+          <div class="flex-shrink-0 flex items-center">
+            <!-- Replace with your actual logo URL if hosted, using the one from your prompt -->
+            <img
+              class="h-14 w-auto"
+              src="logo.jpeg"
+              alt="Air National Courier Logo"
+              id="nav-logo"
+            />
+            <span class="ml-3 font-bold text-xl text-blue-900 hidden md:block"
+              >Air National Courier</span
+            >
+          </div>
+          <div class="hidden md:flex space-x-8 items-center">
+            <a
+              href="#home"
+              class="text-gray-600 hover:text-blue-600 font-medium transition"
+              >Home</a
+            >
+            <a
+              href="#services"
+              class="text-gray-600 hover:text-blue-600 font-medium transition"
+              >Services</a
+            >
+            <a
+              href="#tracking"
+              class="text-gray-600 hover:text-blue-600 font-medium transition"
+              >Track Shipment</a
+            >
+            <a
+              href="#quote"
+              class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-full font-semibold transition shadow-md"
+              >Get a Quote</a
+            >
+          </div>
+          <!-- Mobile menu button -->
+          <div class="md:hidden flex items-center">
+            <button
+              id="mobile-menu-btn"
+              class="text-gray-600 hover:text-blue-600 focus:outline-none"
+            >
+              <i class="fas fa-bars text-2xl"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- Mobile Menu -->
+      <div id="mobile-menu" class="hidden md:hidden bg-white border-t">
+        <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <a
+            href="#home"
+            class="block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium"
+            >Home</a
+          >
+          <a
+            href="#services"
+            class="block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium"
+            >Services</a
+          >
+          <a
+            href="#tracking"
+            class="block px-3 py-2 text-gray-600 hover:text-blue-600 font-medium"
+            >Track Shipment</a
+          >
+          <a href="#quote" class="block px-3 py-2 text-blue-600 font-bold"
+            >Get a Quote</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="home"
+      class="relative pt-20 pb-20 lg:pt-32 lg:pb-32 flex items-center justify-center min-h-screen bg-cover bg-center"
+      style="background-image: url(&quot;cover.jpeg&quot;)"
+    >
+      <!-- Overlay for readability -->
+      <div class="absolute inset-0 bg-blue-900 bg-opacity-70"></div>
+
+      <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+        <h1
+          class="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6"
+        >
+          Fast & Reliable Air Cargo <br />
+          <span class="text-blue-300">From Lahore to the World</span>
+        </h1>
+        <p class="text-lg md:text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
+          Air National Courier is your premier partner for express shipping,
+          freight forwarding, and door-to-door delivery across the globe.
+        </p>
+        <div class="flex flex-col sm:flex-row justify-center gap-4">
+          <a
+            href="#quote"
+            class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-4 px-8 rounded-full text-lg shadow-lg transition transform hover:-translate-y-1"
+          >
+            <i class="fas fa-paper-plane mr-2"></i> Get a Free Quote
+          </a>
+          <a
+            href="#tracking"
+            class="bg-white hover:bg-gray-100 text-blue-900 font-bold py-4 px-8 rounded-full text-lg shadow-lg transition transform hover:-translate-y-1"
+          >
+            <i class="fas fa-search-location mr-2"></i> Track Shipment
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Trust Indicators / Features -->
+    <section class="py-12 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div class="p-6">
+            <div class="text-blue-600 text-4xl mb-4">
+              <i class="fas fa-plane-departure"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-2">Global Reach</h3>
+            <p class="text-gray-600">
+              Connecting Lahore to over 200 countries with efficient air freight
+              networks.
+            </p>
+          </div>
+          <div class="p-6">
+            <div class="text-blue-600 text-4xl mb-4">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-2">Time Definite</h3>
+            <p class="text-gray-600">
+              Express delivery options ranging from 24 hours to 5 business days
+              worldwide.
+            </p>
+          </div>
+          <div class="p-6">
+            <div class="text-blue-600 text-4xl mb-4">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3 class="text-xl font-bold mb-2">Secure Handling</h3>
+            <p class="text-gray-600">
+              Real-time tracking and fully insured cargo for your peace of mind.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-16">
+          <h2 class="text-3xl md:text-4xl font-bold text-blue-900 mb-4">
+            Our Premium Services
+          </h2>
+          <div class="w-24 h-1 bg-blue-500 mx-auto rounded"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <!-- Service 1 -->
+          <div
+            class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition border-t-4 border-blue-500"
+          >
+            <i class="fas fa-box-open text-4xl text-blue-500 mb-4"></i>
+            <h3 class="text-xl font-bold mb-3">Express Parcel</h3>
+            <p class="text-gray-600">
+              Ideal for urgent documents and small packages. Fastest transit
+              times globally.
+            </p>
+          </div>
+          <!-- Service 2 -->
+          <div
+            class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition border-t-4 border-blue-500"
+          >
+            <i class="fas fa-pallet text-4xl text-blue-500 mb-4"></i>
+            <h3 class="text-xl font-bold mb-3">Air Freight</h3>
+            <p class="text-gray-600">
+              Cost-effective solutions for heavy cargo and bulk shipments via
+              commercial airlines.
+            </p>
+          </div>
+          <!-- Service 3 -->
+          <div
+            class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition border-t-4 border-blue-500"
+          >
+            <i class="fas fa-home text-4xl text-blue-500 mb-4"></i>
+            <h3 class="text-xl font-bold mb-3">Door-to-Door</h3>
+            <p class="text-gray-600">
+              We pick up from your location in Lahore and deliver directly to
+              your recipient's door.
+            </p>
+          </div>
+          <!-- Service 4 -->
+          <div
+            class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition border-t-4 border-blue-500"
+          >
+            <i class="fas fa-file-invoice text-4xl text-blue-500 mb-4"></i>
+            <h3 class="text-xl font-bold mb-3">Customs Clearance</h3>
+            <p class="text-gray-600">
+              Expert handling of export documentation and customs regulations in
+              Pakistan.
+            </p>
+          </div>
+          <!-- Service 5 -->
+          <div
+            class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition border-t-4 border-blue-500"
+          >
+            <i class="fas fa-temperature-low text-4xl text-blue-500 mb-4"></i>
+            <h3 class="text-xl font-bold mb-3">Special Cargo</h3>
+            <p class="text-gray-600">
+              Temperature-controlled and sensitive item handling for
+              pharmaceuticals and perishables.
+            </p>
+          </div>
+          <!-- Service 6 -->
+          <div
+            class="bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition border-t-4 border-blue-500"
+          >
+            <i class="fas fa-boxes text-4xl text-blue-500 mb-4"></i>
+            <h3 class="text-xl font-bold mb-3">E-Commerce Logistics</h3>
+            <p class="text-gray-600">
+              Seamless shipping integration for online sellers shipping from
+              Lahore globally.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quote Request & Tracking Section -->
+    <section id="quote" class="py-20 bg-blue-900 text-white relative">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+          <!-- Quote Form -->
+          <div class="bg-white text-gray-800 p-8 rounded-2xl shadow-2xl">
+            <h3 class="text-2xl font-bold text-blue-900 mb-6">
+              Request a Quote
+            </h3>
+            <form id="quoteForm" class="space-y-4">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-sm font-medium mb-1"
+                    >Full Name</label
+                  >
+                  <input
+                    type="text"
+                    id="qName"
+                    required
+                    class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
+                    placeholder="John Doe"
+                  />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium mb-1"
+                    >Email Address</label
+                  >
+                  <input
+                    type="email"
+                    id="qEmail"
+                    required
+                    class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
+                    placeholder="john@example.com"
+                  />
+                </div>
+              </div>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                  <label class="block text-sm font-medium mb-1"
+                    >Destination Country</label
+                  >
+                  <input
+                    type="text"
+                    id="qDest"
+                    required
+                    class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
+                    placeholder="e.g., USA, UK, UAE"
+                  />
+                </div>
+                <div>
+                  <label class="block text-sm font-medium mb-1"
+                    >Weight (kg)</label
+                  >
+                  <input
+                    type="number"
+                    id="qWeight"
+                    required
+                    class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
+                    placeholder="e.g., 5"
+                  />
+                </div>
+              </div>
+              <div>
+                <label class="block text-sm font-medium mb-1"
+                  >Shipment Details</label
+                >
+                <textarea
+                  id="qDetails"
+                  rows="3"
+                  class="w-full px-4 py-2 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none"
+                  placeholder="Describe your items (e.g., documents, clothes, electronics)"
+                ></textarea>
+              </div>
+              <button
+                type="submit"
+                class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg transition duration-300 shadow-md"
+              >
+                Submit Request <i class="fas fa-arrow-right ml-2"></i>
+              </button>
+            </form>
+            <div
+              id="formMessage"
+              class="mt-4 text-center font-semibold hidden"
+            ></div>
+          </div>
+
+          <!-- Tracking & Info -->
+          <div class="flex flex-col justify-center">
+            <h3 class="text-3xl font-bold mb-4">Track Your Shipment</h3>
+            <p class="text-blue-200 mb-6">
+              Enter your tracking number to get real-time updates on your
+              cargo's journey from Lahore to its destination.
+            </p>
+
+            <div class="flex gap-2 mb-8">
+              <input
+                type="text"
+                id="trackingInput"
+                class="w-full px-4 py-3 rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                placeholder="Enter Tracking Number (e.g., ANC-123456)"
+              />
+              <button
+                id="trackBtn"
+                class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg transition shadow-md whitespace-nowrap"
+              >
+                Track
+              </button>
+            </div>
+            <div
+              id="trackingResult"
+              class="bg-blue-800 p-4 rounded-lg hidden border border-blue-700"
+            >
+              <!-- Result inserted via JS -->
+            </div>
+
+            <div class="mt-8 border-t border-blue-800 pt-8">
+              <h4 class="text-xl font-bold mb-4">
+                Why Choose Air National Courier?
+              </h4>
+              <ul class="space-y-3">
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-400 mr-3"></i> Based
+                  in Lahore, Pakistan
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-400 mr-3"></i>
+                  Competitive International Rates
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-400 mr-3"></i>
+                  Dedicated Customer Support
+                </li>
+                <li class="flex items-center">
+                  <i class="fas fa-check-circle text-green-400 mr-3"></i> Fast
+                  Customs Processing
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+          <div class="col-span-1 md:col-span-2">
+            <img
+              class="h-12 w-auto mb-4"
+              src="https://i.ibb.co/6P0yq4Z/logo-placeholder.png"
+              alt="Air National Courier"
+            />
+            <p class="text-gray-400 mb-4">
+              Your trusted partner for express air cargo and logistics from
+              Lahore to every corner of the globe.
+            </p>
+          </div>
+          <div>
+            <h4 class="text-lg font-bold mb-4">Quick Links</h4>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <a href="#home" class="hover:text-blue-400 transition">Home</a>
+              </li>
+              <li>
+                <a href="#services" class="hover:text-blue-400 transition"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a href="#quote" class="hover:text-blue-400 transition"
+                  >Get a Quote</a
+                >
+              </li>
+              <li>
+                <a href="#tracking" class="hover:text-blue-400 transition"
+                  >Track Shipment</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <h4 class="text-lg font-bold mb-4">Contact Us</h4>
+            <ul class="space-y-2 text-gray-400">
+              <li>
+                <i class="fas fa-map-marker-alt mr-2 text-blue-500"></i> Lahore,
+                Pakistan
+              </li>
+              <li>
+                <i class="fas fa-phone mr-2 text-blue-500"></i> +92 300 1234567
+              </li>
+              <li>
+                <i class="fas fa-envelope mr-2 text-blue-500"></i>
+                info@airnationalcourier.com
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500 text-sm"
+        >
+          &copy; <span id="year"></span> Air National Courier. All rights
+          reserved.
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
